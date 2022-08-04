@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDED8BF5289C10F60013D87E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8BF4289C10F60013D87E /* AppDelegate.swift */; };
+		DDED8BF7289C10F60013D87E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8BF6289C10F60013D87E /* SceneDelegate.swift */; };
+		DDED8BF9289C10F60013D87E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8BF8289C10F60013D87E /* ViewController.swift */; };
+		DDED8BFC289C10F70013D87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED8BFA289C10F70013D87E /* Main.storyboard */; };
+		DDED8BFF289C10F70013D87E /* La_Peau_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDED8BFD289C10F70013D87E /* La_Peau_Project.xcdatamodeld */; };
+		DDED8C01289C10F80013D87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDED8C00289C10F80013D87E /* Assets.xcassets */; };
+		DDED8C04289C10F80013D87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDED8C02289C10F80013D87E /* LaunchScreen.storyboard */; };
+		DDED8C0F289C10F80013D87E /* La_Peau_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C0E289C10F80013D87E /* La_Peau_ProjectTests.swift */; };
+		DDED8C19289C10F80013D87E /* La_Peau_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C18289C10F80013D87E /* La_Peau_ProjectUITests.swift */; };
+		DDED8C1B289C10F80013D87E /* La_Peau_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED8C1A289C10F80013D87E /* La_Peau_ProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDED8C0B289C10F80013D87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDED8BE9289C10F60013D87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDED8BF0289C10F60013D87E;
+			remoteInfo = "La Peau Project";
+		};
+		DDED8C15289C10F80013D87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDED8BE9289C10F60013D87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDED8BF0289C10F60013D87E;
+			remoteInfo = "La Peau Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDED8BF1289C10F60013D87E /* La Peau Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "La Peau Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8BF4289C10F60013D87E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDED8BF6289C10F60013D87E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDED8BF8289C10F60013D87E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDED8BFB289C10F70013D87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDED8BFE289C10F70013D87E /* La_Peau_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = La_Peau_Project.xcdatamodel; sourceTree = "<group>"; };
+		DDED8C00289C10F80013D87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDED8C03289C10F80013D87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDED8C05289C10F80013D87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDED8C0A289C10F80013D87E /* La Peau ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La Peau ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8C0E289C10F80013D87E /* La_Peau_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau_ProjectTests.swift; sourceTree = "<group>"; };
+		DDED8C14289C10F80013D87E /* La Peau ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La Peau ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDED8C18289C10F80013D87E /* La_Peau_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau_ProjectUITests.swift; sourceTree = "<group>"; };
+		DDED8C1A289C10F80013D87E /* La_Peau_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_Peau_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDED8BEE289C10F60013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C07289C10F80013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C11289C10F80013D87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDED8BE8289C10F60013D87E = {
+			isa = PBXGroup;
+			children = (
+				DDED8BF3289C10F60013D87E /* La Peau Project */,
+				DDED8C0D289C10F80013D87E /* La Peau ProjectTests */,
+				DDED8C17289C10F80013D87E /* La Peau ProjectUITests */,
+				DDED8BF2289C10F60013D87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDED8BF2289C10F60013D87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8BF1289C10F60013D87E /* La Peau Project.app */,
+				DDED8C0A289C10F80013D87E /* La Peau ProjectTests.xctest */,
+				DDED8C14289C10F80013D87E /* La Peau ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDED8BF3289C10F60013D87E /* La Peau Project */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8BF4289C10F60013D87E /* AppDelegate.swift */,
+				DDED8BF6289C10F60013D87E /* SceneDelegate.swift */,
+				DDED8BF8289C10F60013D87E /* ViewController.swift */,
+				DDED8BFA289C10F70013D87E /* Main.storyboard */,
+				DDED8C00289C10F80013D87E /* Assets.xcassets */,
+				DDED8C02289C10F80013D87E /* LaunchScreen.storyboard */,
+				DDED8C05289C10F80013D87E /* Info.plist */,
+				DDED8BFD289C10F70013D87E /* La_Peau_Project.xcdatamodeld */,
+			);
+			path = "La Peau Project";
+			sourceTree = "<group>";
+		};
+		DDED8C0D289C10F80013D87E /* La Peau ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C0E289C10F80013D87E /* La_Peau_ProjectTests.swift */,
+			);
+			path = "La Peau ProjectTests";
+			sourceTree = "<group>";
+		};
+		DDED8C17289C10F80013D87E /* La Peau ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDED8C18289C10F80013D87E /* La_Peau_ProjectUITests.swift */,
+				DDED8C1A289C10F80013D87E /* La_Peau_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "La Peau ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDED8BF0289C10F60013D87E /* La Peau Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8C1E289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau Project" */;
+			buildPhases = (
+				DDED8BED289C10F60013D87E /* Sources */,
+				DDED8BEE289C10F60013D87E /* Frameworks */,
+				DDED8BEF289C10F60013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "La Peau Project";
+			productName = "La Peau Project";
+			productReference = DDED8BF1289C10F60013D87E /* La Peau Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDED8C09289C10F80013D87E /* La Peau ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8C21289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau ProjectTests" */;
+			buildPhases = (
+				DDED8C06289C10F80013D87E /* Sources */,
+				DDED8C07289C10F80013D87E /* Frameworks */,
+				DDED8C08289C10F80013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDED8C0C289C10F80013D87E /* PBXTargetDependency */,
+			);
+			name = "La Peau ProjectTests";
+			productName = "La Peau ProjectTests";
+			productReference = DDED8C0A289C10F80013D87E /* La Peau ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDED8C13289C10F80013D87E /* La Peau ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDED8C24289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau ProjectUITests" */;
+			buildPhases = (
+				DDED8C10289C10F80013D87E /* Sources */,
+				DDED8C11289C10F80013D87E /* Frameworks */,
+				DDED8C12289C10F80013D87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDED8C16289C10F80013D87E /* PBXTargetDependency */,
+			);
+			name = "La Peau ProjectUITests";
+			productName = "La Peau ProjectUITests";
+			productReference = DDED8C14289C10F80013D87E /* La Peau ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDED8BE9289C10F60013D87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DDED8BF0289C10F60013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DDED8C09289C10F80013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDED8BF0289C10F60013D87E;
+					};
+					DDED8C13289C10F80013D87E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DDED8BF0289C10F60013D87E;
+					};
+				};
+			};
+			buildConfigurationList = DDED8BEC289C10F60013D87E /* Build configuration list for PBXProject "La Peau Project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDED8BE8289C10F60013D87E;
+			productRefGroup = DDED8BF2289C10F60013D87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDED8BF0289C10F60013D87E /* La Peau Project */,
+				DDED8C09289C10F80013D87E /* La Peau ProjectTests */,
+				DDED8C13289C10F80013D87E /* La Peau ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDED8BEF289C10F60013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C04289C10F80013D87E /* LaunchScreen.storyboard in Resources */,
+				DDED8C01289C10F80013D87E /* Assets.xcassets in Resources */,
+				DDED8BFC289C10F70013D87E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C08289C10F80013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C12289C10F80013D87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDED8BED289C10F60013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8BF9289C10F60013D87E /* ViewController.swift in Sources */,
+				DDED8BFF289C10F70013D87E /* La_Peau_Project.xcdatamodeld in Sources */,
+				DDED8BF5289C10F60013D87E /* AppDelegate.swift in Sources */,
+				DDED8BF7289C10F60013D87E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C06289C10F80013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C0F289C10F80013D87E /* La_Peau_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDED8C10289C10F80013D87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDED8C1B289C10F80013D87E /* La_Peau_ProjectUITestsLaunchTests.swift in Sources */,
+				DDED8C19289C10F80013D87E /* La_Peau_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDED8C0C289C10F80013D87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDED8BF0289C10F60013D87E /* La Peau Project */;
+			targetProxy = DDED8C0B289C10F80013D87E /* PBXContainerItemProxy */;
+		};
+		DDED8C16289C10F80013D87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDED8BF0289C10F60013D87E /* La Peau Project */;
+			targetProxy = DDED8C15289C10F80013D87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDED8BFA289C10F70013D87E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDED8BFB289C10F70013D87E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDED8C02289C10F80013D87E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDED8C03289C10F80013D87E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDED8C1C289C10F80013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDED8C1D289C10F80013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDED8C1F289C10F80013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "La Peau Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDED8C20289C10F80013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "La Peau Project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDED8C22289C10F80013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Peau Project.app/La Peau Project";
+			};
+			name = Debug;
+		};
+		DDED8C23289C10F80013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/La Peau Project.app/La Peau Project";
+			};
+			name = Release;
+		};
+		DDED8C25289C10F80013D87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Peau Project";
+			};
+			name = Debug;
+		};
+		DDED8C26289C10F80013D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kodeWithKlossy.La-Peau-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "La Peau Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDED8BEC289C10F60013D87E /* Build configuration list for PBXProject "La Peau Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8C1C289C10F80013D87E /* Debug */,
+				DDED8C1D289C10F80013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8C1E289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8C1F289C10F80013D87E /* Debug */,
+				DDED8C20289C10F80013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8C21289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8C22289C10F80013D87E /* Debug */,
+				DDED8C23289C10F80013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDED8C24289C10F80013D87E /* Build configuration list for PBXNativeTarget "La Peau ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDED8C25289C10F80013D87E /* Debug */,
+				DDED8C26289C10F80013D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDED8BFD289C10F70013D87E /* La_Peau_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDED8BFE289C10F70013D87E /* La_Peau_Project.xcdatamodel */,
+			);
+			currentVersion = DDED8BFE289C10F70013D87E /* La_Peau_Project.xcdatamodel */;
+			path = La_Peau_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDED8BE9289C10F60013D87E /* Project object */;
+}
