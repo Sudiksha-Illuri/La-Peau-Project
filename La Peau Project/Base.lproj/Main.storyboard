@@ -41,7 +41,7 @@
                                 <rect key="frame" x="135" y="796" width="144" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Homee"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VKg-uY-1zd"/>
